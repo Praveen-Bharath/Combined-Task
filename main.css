@@ -1,0 +1,112 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+header {
+	top: 2px;
+	right: 0px;
+	left: 0px;
+	position: fixed;
+	background: tomato;
+	padding: 25px;
+	text-align: center;
+}
+
+header nav a {
+	padding: 10px 25px;
+	color: blanchedalmond;
+	font-size: 25px;
+	text-transform: capitalize;
+}
+
+header nav a.active,
+header nav a:hover {
+	background: blanchedalmond;
+	color: black;
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 6em;
+	color: sandybrown;
+	font-weight: bolder;
+	padding-bottom: 70px;
+	text-transform: uppercase;
+}
+
+section:nth-child(odd) {
+	background: #eee;
+}
+
+#overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	cursor: pointer;
+}
+
+#text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 50px;
+	color: white;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	color: greenyellow;
+	font-weight: bold;
+}
+
+#overlay1 {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 60px;
+	cursor: pointer;
+	color: rgb(0, 0, 0);
+	background: #fff;
+}
+
+#custom-button {
+	padding: 10px;
+	color: white;
+	background-color: #009578;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#custom-button:hover {
+	background-color: #00b28f;
+}
+
+#custom-text {
+	margin-left: 10px;
+	font-family: sans-serif;
+	color: #aaa;
+}
+
+#displayimage {
+	width: 50%;
+	height: 50vh;
+	background-position: center;
+	border: 1px solid black;
+	background-size: 100% 100%;
+}
+
