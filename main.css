@@ -69,7 +69,6 @@ section:nth-child(odd) {
 	color: white;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	color: greenyellow;
 	font-weight: bold;
 }
 
